@@ -1,0 +1,21 @@
+[main]
+host = https://www.transifex.com
+
+[TESTPROJ.log]
+source_file = translations/TESTPROJ.source/pt_BR.txt
+file_filter = translations/TESTPROJ.log/<lang>.txt
+source_lang = en
+type = TXT
+
+[TESTPROJ.source]
+source_file = translations/TESTPROJ.source/pt_BR.txt
+file_filter = translations/TESTPROJ.source/<lang>.txt
+source_lang = en
+type = TXT
+
+[TESTPROJ.source-file]
+source_file = translations/TESTPROJ.source/pt_BR.txt
+file_filter = translations/TESTPROJ.source-file/<lang>.po
+source_lang = en
+type = PO
+
